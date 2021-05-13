@@ -1,0 +1,50 @@
+BITWISE OPERATOR :
+
+& (AND)
+--> Number & 1 == 1 if Number is odd , Number & 1 == 0 if number is even.
+
+| (OR)
+--> Number | ~Number == All 1's , Number & ~Number == 0 
+
+^ XOR Operator
+---> Number ^ Number == 0 (same bits cancel each other)
+
+Left Shift :
+<< 2  (multiply number by 2)
+
+Right Shfit :
+>> 2 (devide number by 2)
+
+~ (Bitwise Complement) 
+How to represent negative numbers in binary :
+flips the bits of a binary number and then add 1. (why)
+x + ~x = 1111 1111 1111 1111 1111 1111 1111 1111
+x + ~x + 1 =   1111 1111 1111 1111 1111 1111 1111 1111 + 1
+           = 1 0000 0000 0000 0000 0000 0000 0000 0000
+The leftmost 1-bit will simply be discarded, because it doesn't fit in 32-bits (integer overflow). So,
+x + ~x + 1 = 0
+-x = ~x + 1
+So you can see that the negative x can be represented by ~x + 1, which we call the two's complement of x.
+see screenshots if needed.
+
+Other Important Points : Java APIs Support : Number System conversions  : 
+String.format("%32s", Integer.toBinaryString(first)).replaceAll(" ", "0");
+String binaryOfn = Integer.toBinaryString(n);
+String hexaDecimalValue = Integer.toHexString(num);
+String baseKNumber = Integer.toString(Integer.parseInt(String.valueOf(n) , 10) , k);[To convert a number n from base 10 to base K.]
+
+Converts the binary number into the decimal number : Integer.parseInt(result,2);
+DecimalToBinaryConversionJavaAPIPrograms.java
+
+
+
+
+
+
+
+
+
+
+
+
+

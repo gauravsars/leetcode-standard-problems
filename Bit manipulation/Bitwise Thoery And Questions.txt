@@ -1,0 +1,122 @@
+Bitwise operator :
+
+& (AND)
+
+--> Number & 1 == 1 if Number is odd , Number & 1 == 0 if number is even.
+
+| (OR)
+
+--> Number | ~Number == All 1's , Number & ~Number == 0 
+
+~ (Bitwise Complement) 
+
+
+
+^ XOR Operator
+
+---> Number ^ Number == 0 (same bits cancel each other)
+
+Left Shift :
+
+<< 2  (multiply number by 2)
+
+Right Shfit :
+
+>> 2 (devide number by 2)
+
+Convert a number from base 2 to decimal and decimal to base 2.
+
+Convert a decimal number to base 4 , base 8 or base 16.
+
+
+
+
+
+
+
+Other Important Points :
+
+
+
+
+
+
+ Questions : 
+ 1. Kth bit is set or not.
+ 
+ 2. Find number of set bits.
+ 
+ 3. single number 
+ 
+ 4. humming distance 
+ 
+ 5. subsets find all
+ 
+ 6. sort numbers by the number of set bits.
+ 
+ 7. find if the number has flipping bits.
+ 
+ 8. majority element
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Solutions : 
+ 1.(number >> k-1 & 1 == 1) return true else false
+ 
+ 2.while (number !=0) --> { number = (number & number -1) count++}
+ 
+ 3.xor all
+ 
+ 4.distance between two set bits
+ 
+ 5. for each value between 0 to 2 pow n , where n is length of array , find postion where bit is set.
+ 
+ 6. ( compareByValue, thenCompareByKey) or brain karnighan algorithm.
+ 
+ 7. number & flipped number == 0 return true
+ 
+ 8. majority element
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+Millin Views : ProjectElon : How to Study SMARTER, Not HARDER : https://www.youtube.com/watch?v=_HexCRbWfDM :
+
+1. Advanced Information Processing : 
+
+If you read a book and you get to the end , and you realize you retain nothing. It is because you are not asking questions.
+If you are not asking questions and not engaging, then you are wasting your time, With asking more questions you can study smartly.(ask yourself questions regularly and find answers).
+
+
+2. Space Repetition :
+
+memorize information , a couple of days later reinforce the information, (do questions in mind and check solutions) for example
+bitwise_operators_questions.txt and verify solutions.
+Active Recall : 
+
+Proper Notes (Screen Shots of Concepts gained from the questions).
+Proper Text Files Save in Github.[In the Tabs]
+Audio Notes in chrome.
+Contemplate ( permutation , subset sum , quick sort )
+
+
+3.Prato Principle : 20 percent -> 80% ( weekly , 3 - 4 ) : 
+Arrays/String Problems specific to company to applying. 
+ 
+4.Feynman technique :
+Step 1 : study in depth and make notes
+Step 2: teach someone who does not even know basics.
+Step 3: simplify and explain the topics. observe which part of topic you are able to explain well go back and recall.
+Explain it others in easiest way , if you can explain it in simple language then you understood it very well. 
+Youtube Video may be later , providing hints for future reference. ( try to form permutation of 4 digit.)
+
+0. Array/String/Buffer manipulation (These will be used most frequently.)  
+1. Permutation Problem 
+2. Subset sum problem 
+3. Quick sort
+4. Insertion sort
+5. Merge sort
+6. Subarray sum

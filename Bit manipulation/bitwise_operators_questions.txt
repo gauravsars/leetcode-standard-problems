@@ -1,0 +1,25 @@
+Questions : (Neat and clean programs for the below questions) : Code all the below problems and commit the code in github : 
+
+ 1. Kth bit is set or not.
+ 
+ 2. Find number of set bits.
+ 
+ 3. single number 
+ 
+ 4. humming distance : https://leetcode.com/problems/hamming-distance/
+ 
+ 5. subsets find all
+ 
+ 6. sort binary numbers by the number of set bits.
+ 
+ 7. find if the number has flipping bits. ( using both string and last value : 2 pow 31 -1)
+ 
+ 8. https://leetcode.com/problems/sum-of-digits-in-base-k/  convert a number to base K and return the sum of its digits.
+ 
+ 9. convert decimal to binary/octal/hexadecimal and similarly convert number to binary/octal/hexadecimal to decimal.
+ 
+ 10.couting game.(hacker rank)
+  
+ 11.https://www.geeksforgeeks.org/maximum-value-pair-array/ find the pair with the maximum value. (AND PAIR)
+ 
+ 12. multiply a number by 3.5 or 7 etc etc.

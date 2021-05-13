@@ -1,0 +1,26 @@
+ Solutions : ADD the Link for the Github Repository.
+ 
+ 1.(number >> k-1 & 1 == 1) return true else false
+ 
+ 2.while (number !=0) --> { number = (number & number -1) count++}
+ 
+ 3.xor all
+ 
+ 4.distance between two set bits
+ 
+ 5. for each value between 0 to 2 pow n , where n is length of array , find postions of counter where bit is set.
+ 
+ 6. ( compareByValue, thenCompareByKey) or brain karnighan algorithm.
+ 
+ 7. number & flipped number , largest number biginteger or string can solve.
+ 
+ 8. base to binary conversion.
+ 
+ 9. same as above.
+ 
+ 10.counting game hc
+ 
+ 11. solution using O(n2) and O(contant*n)
+ 
+ 12. using bitwise operators.
+ 
